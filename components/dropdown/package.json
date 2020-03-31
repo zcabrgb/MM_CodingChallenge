@@ -1,0 +1,31 @@
+{
+  "name": "@bit/semantic-org.semantic-ui-react.dropdown",
+  "version": "0.86.0",
+  "homepage": "https://bit.dev/semantic-org/semantic-ui-react/dropdown",
+  "main": "dist/modules/Dropdown/index.js",
+  "dependencies": {
+    "@semantic-ui-react/event-stack": "^3.1.0",
+    "classnames": "^2.2.6",
+    "keyboard-key": "^1.0.4",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "shallowequal": "^1.1.0",
+    "@bit/semantic-org.semantic-ui-react.label": "0.86.0",
+    "@bit/semantic-org.semantic-ui-react.ref": "0.86.0",
+    "@bit/semantic-org.semantic-ui-react.icon": "0.86.0",
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index": "0.86.0",
+    "@bit/semantic-org.semantic-ui-react.internal.genericd": "0.86.0",
+    "@bit/semantic-org.semantic-ui-react.flag": "0.86.0",
+    "@bit/semantic-org.semantic-ui-react.image": "0.86.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "semantic-org.semantic-ui-react-compiler/compilers/react@1.0.3"
+    }
+  }
+}
