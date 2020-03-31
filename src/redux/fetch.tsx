@@ -35,12 +35,15 @@ export const fetchProducts = () => (dispatch: Dispatch<any>) => {
           });
         })
         .then(() => {
+          console.log(res);
+          if (res.machines[0].history) {
+            localStorage.setItem('products', JSON.stringify(res.machines));
+          }
           dispatch({
             type: FETCH_PRODUCTS_SUCCESS,
             payload: res.machines
           });
         });
-      localStorage.setItem('products', JSON.stringify(res.machines));
     })
     .catch(error => {
       dispatch({

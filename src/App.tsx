@@ -57,8 +57,9 @@ class App extends React.Component<
     if (error && localStorage.getItem('products') != null) {
       console.log('error', error);
       products = localStorage.getItem('products')
-        ? products
-        : JSON.parse(localStorage.getItem('products') as string);
+        ? JSON.parse(localStorage.getItem('products') as string)
+        : products;
+      console.log('local storage updated', products);
     }
 
     const sort = (
