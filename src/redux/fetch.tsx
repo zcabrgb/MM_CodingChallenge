@@ -35,7 +35,6 @@ export const fetchProducts = () => (dispatch: Dispatch<any>) => {
           });
         })
         .then(() => {
-          console.log(res);
           if (res.machines[0].history) {
             localStorage.setItem('products', JSON.stringify(res.machines));
           }

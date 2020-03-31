@@ -36,6 +36,6 @@ export const PopoverC: React.FC<IPopoverProps> = ({id, history}) => (
     placement="right"
     overlay={popover(history ? history : {})}
   >
-    <Button variant="success">History!</Button>
+    <Button variant="success">machine history</Button>
   </OverlayTrigger>
 );
