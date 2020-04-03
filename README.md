@@ -1,3 +1,6 @@
+
+Important: Because of the browser CORS policy, you would have to install Moesif Orign & CORS Changer plugin on your browser. Otherwise the data would not be fetched.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
